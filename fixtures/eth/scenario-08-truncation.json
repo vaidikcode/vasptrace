@@ -1,0 +1,54 @@
+{
+  "synthetic": true,
+  "description": "Scenario 8: a 6-hop chain, deep enough that the default 4-hop limit truncates the trace before it reaches the labelled address at hop 6.",
+  "transfers": [
+    {
+      "txId": "eth-tx-scn8-001",
+      "timestamp": "2026-08-01T08:00:00Z",
+      "from": "0xaaaaa3f200000000000000000000000000000000",
+      "to": "0xaaaaa3f300000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 10.0
+    },
+    {
+      "txId": "eth-tx-scn8-002",
+      "timestamp": "2026-08-01T08:10:00Z",
+      "from": "0xaaaaa3f300000000000000000000000000000000",
+      "to": "0xaaaaa3f400000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 9.9
+    },
+    {
+      "txId": "eth-tx-scn8-003",
+      "timestamp": "2026-08-01T08:20:00Z",
+      "from": "0xaaaaa3f400000000000000000000000000000000",
+      "to": "0xaaaaa3f500000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 9.8
+    },
+    {
+      "txId": "eth-tx-scn8-004",
+      "timestamp": "2026-08-01T08:30:00Z",
+      "from": "0xaaaaa3f500000000000000000000000000000000",
+      "to": "0xaaaaa3f600000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 9.7
+    },
+    {
+      "txId": "eth-tx-scn8-005",
+      "timestamp": "2026-08-01T08:40:00Z",
+      "from": "0xaaaaa3f600000000000000000000000000000000",
+      "to": "0xaaaaa3f700000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 9.6
+    },
+    {
+      "txId": "eth-tx-scn8-006",
+      "timestamp": "2026-08-01T08:50:00Z",
+      "from": "0xaaaaa3f700000000000000000000000000000000",
+      "to": "0xaaaaa3f800000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 9.5
+    }
+  ]
+}

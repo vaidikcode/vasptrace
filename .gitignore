@@ -1,0 +1,16 @@
+node_modules/
+dist/
+build/
+.env
+.env.local
+*.log
+.DS_Store
+
+# generated runtime data (fixtures are tracked, generated case/run data is not)
+server/data/*.json
+server/data/cases/
+server/data/runs/
+server/data/reports/*
+!server/data/reports/.gitkeep
+server/data/audit-log.jsonl
+!server/data/.gitkeep

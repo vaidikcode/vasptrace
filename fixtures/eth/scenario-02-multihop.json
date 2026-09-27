@@ -1,0 +1,51 @@
+{
+  "synthetic": true,
+  "description": "Scenario 2: a 3-hop ERC20 token path ending at a labelled VASP hot wallet, plus a shorter but weaker-evidence alternative path to a different, lower-ranked candidate.",
+  "transfers": [
+    {
+      "txId": "eth-tx-scn2-001",
+      "timestamp": "2026-02-20T10:00:00Z",
+      "from": "0xaaaaa3e800000000000000000000000000000000",
+      "to": "0xaaaaa3e900000000000000000000000000000000",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 5000
+    },
+    {
+      "txId": "eth-tx-scn2-002",
+      "timestamp": "2026-02-20T11:00:00Z",
+      "from": "0xaaaaa3e900000000000000000000000000000000",
+      "to": "0xaaaaa3ea00000000000000000000000000000000",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 4950
+    },
+    {
+      "txId": "eth-tx-scn2-003",
+      "timestamp": "2026-02-20T12:00:00Z",
+      "from": "0xaaaaa3ea00000000000000000000000000000000",
+      "to": "0xaaaaa3eb00000000000000000000000000000000",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 4900
+    },
+    {
+      "txId": "eth-tx-scn2-004",
+      "timestamp": "2026-02-20T10:05:00Z",
+      "from": "0xaaaaa3e800000000000000000000000000000000",
+      "to": "0xaaaaa3ec00000000000000000000000000000000",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 800
+    },
+    {
+      "txId": "eth-tx-scn2-005",
+      "timestamp": "2026-02-20T10:45:00Z",
+      "from": "0xaaaaa3ec00000000000000000000000000000000",
+      "to": "0xaaaaa3ed00000000000000000000000000000000",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 780
+    }
+  ]
+}

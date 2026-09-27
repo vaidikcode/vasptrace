@@ -1,0 +1,31 @@
+{
+  "synthetic": true,
+  "description": "Scenario 3: UTXO transaction with a split output — part of the value goes to a labelled exchange deposit address, the rest returns as change.",
+  "transactions": [
+    {
+      "txId": "btc-tx-scn3-001",
+      "timestamp": "2026-05-03T09:00:00Z",
+      "inputs": [
+        {
+          "txId": "btc-tx-scn3-prev",
+          "vout": 0,
+          "address": "bc1qseed3suspectaddressxx0001",
+          "amount": 2.0
+        }
+      ],
+      "outputs": [
+        {
+          "vout": 0,
+          "address": "bc1qdep3satoshivaultexchange01",
+          "amount": 1.2
+        },
+        {
+          "vout": 1,
+          "address": "bc1qchg3changeaddressxxxx0001",
+          "amount": 0.7985,
+          "isChange": true
+        }
+      ]
+    }
+  ]
+}

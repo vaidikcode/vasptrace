@@ -1,0 +1,25 @@
+{
+  "synthetic": true,
+  "description": "Scenario 7: funds move to an address labelled as a bridge/swap contract, but no bridge-links.json record exists to justify continuing the trace onto another chain.",
+  "transactions": [
+    {
+      "txId": "btc-tx-scn7-001",
+      "timestamp": "2026-07-22T11:30:00Z",
+      "inputs": [
+        {
+          "txId": "btc-tx-scn7-prev",
+          "vout": 0,
+          "address": "bc1qseed7suspectbridgexxxx0001",
+          "amount": 0.51
+        }
+      ],
+      "outputs": [
+        {
+          "vout": 0,
+          "address": "bc1qbridge7unknownbridgexx0001",
+          "amount": 0.5
+        }
+      ]
+    }
+  ]
+}

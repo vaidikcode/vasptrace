@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "description": "Explicit, documented cross-chain match records. FR-06: two chain legs are only joined into one continuous trace when a record here correlates them (e.g. a bridge contract's lock/burn event on the source chain with its mint/release event on the destination chain). Absent a record, crossChain.ts must stop at the boundary.",
+  "links": [
+    {
+      "id": "bridge-link-scn6-001",
+      "sourceChain": "ETH",
+      "sourceTxId": "eth-tx-scn6-001",
+      "sourceAddress": "0xaaaaa3f100000000000000000000000000000000",
+      "destChain": "TRON",
+      "destTxId": "tron-tx-scn6-mint-000",
+      "destAddress": "TBridge6OmniBridgeTronAddr06",
+      "bridgeEntity": "OmniBridge",
+      "observedAt": "2026-01-18T10:00:00Z",
+      "source": "replay-fixture",
+      "note": "Synthetic OmniBridge lock (ETH) / mint (TRON) correlation record used for demo scenario 6."
+    }
+  ]
+}

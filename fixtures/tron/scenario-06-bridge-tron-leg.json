@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "description": "Scenario 6: TRON-side leg after a verified ETH->TRON bridge crossing, ending at a labelled exchange deposit address.",
+  "transfers": [
+    {
+      "txId": "tron-tx-scn6-002",
+      "timestamp": "2026-01-18T10:20:00Z",
+      "from": "TBridge6OmniBridgeTronAddr06",
+      "to": "TDep6MeridianPayDepositAddr06",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 3000
+    }
+  ]
+}

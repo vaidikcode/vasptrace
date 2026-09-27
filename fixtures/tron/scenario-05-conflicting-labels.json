@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "description": "Scenario 5: destination address carries two conflicting VASP labels (different entity/source/date).",
+  "transfers": [
+    {
+      "txId": "tron-tx-scn5-001",
+      "timestamp": "2026-04-12T14:00:00Z",
+      "from": "TSeed5TronSuspectAddress0005",
+      "to": "TConflict5DualLabelAddress05",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 900
+    }
+  ]
+}

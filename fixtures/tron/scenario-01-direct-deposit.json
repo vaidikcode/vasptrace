@@ -1,0 +1,15 @@
+{
+  "synthetic": true,
+  "description": "Scenario 1: direct TRC20 USDT deposit from a suspect wallet to a labelled exchange deposit address.",
+  "transfers": [
+    {
+      "txId": "tron-tx-scn1-001",
+      "timestamp": "2026-06-01T08:15:00Z",
+      "from": "TSeed1TronSuspectAddress0001",
+      "to": "TDep1CoinVertXDepositAddr01",
+      "asset": "USDT",
+      "tokenSymbol": "USDT",
+      "amount": 4200
+    }
+  ]
+}

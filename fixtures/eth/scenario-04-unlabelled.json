@@ -1,0 +1,14 @@
+{
+  "synthetic": true,
+  "description": "Scenario 4: a single hop to a destination address with no VASP label anywhere in the label dataset.",
+  "transfers": [
+    {
+      "txId": "eth-tx-scn4-001",
+      "timestamp": "2026-03-11T09:30:00Z",
+      "from": "0xaaaaa3ee00000000000000000000000000000000",
+      "to": "0xaaaaa3ef00000000000000000000000000000000",
+      "asset": "ETH",
+      "amount": 1.0
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "synthetic": true,
+  "description": "Curated synthetic VASP/service label dataset for the VASPTrace demo. Every record is fabricated for this prototype and does not describe a real address or entity.",
+  "labels": [
+    {
+      "address": "TDep1CoinVertXDepositAddr01",
+      "chain": "TRON",
+      "entity": "CoinVertX Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "CoinVertX published deposit-address list (synthetic)",
+      "observedAt": "2026-01-10T00:00:00Z",
+      "licenceNote": "Demo data modeled on a typical exchange-published deposit-address disclosure."
+    },
+    {
+      "address": "0xaaaaa3eb00000000000000000000000000000000",
+      "chain": "ETH",
+      "entity": "BitZenith Exchange",
+      "serviceType": "exchange",
+      "addressType": "hot-wallet",
+      "source": "BitZenith self-declared hot-wallet registry (synthetic)",
+      "observedAt": "2026-02-15T00:00:00Z",
+      "licenceNote": "Demo data; high-reliability source, recently observed."
+    },
+    {
+      "address": "0xaaaaa3ed00000000000000000000000000000000",
+      "chain": "ETH",
+      "entity": "Solstice Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "community OSINT tip, unverified (synthetic)",
+      "observedAt": "2025-06-01T00:00:00Z",
+      "licenceNote": "Demo data; lower-reliability, older source used to model a weaker alternative candidate."
+    },
+    {
+      "address": "bc1qdep3satoshivaultexchange01",
+      "chain": "BTC",
+      "entity": "SatoshiVault Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "SatoshiVault published deposit-address list (synthetic)",
+      "observedAt": "2026-03-01T00:00:00Z",
+      "licenceNote": "Demo data modeled on a typical exchange-published deposit-address disclosure."
+    },
+    {
+      "address": "TConflict5DualLabelAddress05",
+      "chain": "TRON",
+      "entity": "NovaCoin Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "NovaCoin self-declared address list (synthetic)",
+      "observedAt": "2025-01-01T00:00:00Z",
+      "licenceNote": "Demo data: first of two conflicting labels on this address."
+    },
+    {
+      "address": "TConflict5DualLabelAddress05",
+      "chain": "TRON",
+      "entity": "ShadowSwap OTC",
+      "serviceType": "otc-desk",
+      "addressType": "hot-wallet",
+      "source": "community OSINT, unverified (synthetic)",
+      "observedAt": "2026-03-01T00:00:00Z",
+      "licenceNote": "Demo data: second, conflicting label on the same address (different entity, service type, source, and date)."
+    },
+    {
+      "address": "0xaaaaa3f100000000000000000000000000000000",
+      "chain": "ETH",
+      "entity": "OmniBridge",
+      "serviceType": "bridge",
+      "addressType": "bridge-contract",
+      "source": "OmniBridge public contract registry (synthetic)",
+      "observedAt": "2025-11-01T00:00:00Z",
+      "licenceNote": "Demo data modeling a well-documented bridge contract address."
+    },
+    {
+      "address": "TBridge6OmniBridgeTronAddr06",
+      "chain": "TRON",
+      "entity": "OmniBridge",
+      "serviceType": "bridge",
+      "addressType": "bridge-contract",
+      "source": "OmniBridge public contract registry (synthetic)",
+      "observedAt": "2025-11-01T00:00:00Z",
+      "licenceNote": "Demo data modeling a well-documented bridge contract address on the destination chain."
+    },
+    {
+      "address": "TDep6MeridianPayDepositAddr06",
+      "chain": "TRON",
+      "entity": "MeridianPay Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "MeridianPay published deposit-address list (synthetic)",
+      "observedAt": "2026-01-20T00:00:00Z",
+      "licenceNote": "Demo data modeled on a typical exchange-published deposit-address disclosure."
+    },
+    {
+      "address": "bc1qbridge7unknownbridgexx0001",
+      "chain": "BTC",
+      "entity": "BTCSwapBridge",
+      "serviceType": "bridge",
+      "addressType": "bridge-contract",
+      "source": "community OSINT tip, unverified (synthetic)",
+      "observedAt": "2026-04-01T00:00:00Z",
+      "licenceNote": "Demo data: label exists for the bridge contract itself, but no bridge-links.json match record exists for this transaction, so the trace cannot be continued onto another chain."
+    },
+    {
+      "address": "0xaaaaa3f800000000000000000000000000000000",
+      "chain": "ETH",
+      "entity": "Farrow Exchange",
+      "serviceType": "exchange",
+      "addressType": "deposit-address",
+      "source": "Farrow published deposit-address list (synthetic)",
+      "observedAt": "2026-02-01T00:00:00Z",
+      "licenceNote": "Demo data; unreachable within the default hop limit in scenario 8, used to demonstrate truncation."
+    },
+    {
+      "address": "TMixerPoolAnonMix0000000001",
+      "chain": "TRON",
+      "entity": "AnonMix Mixer",
+      "serviceType": "mixer",
+      "addressType": "mixer-pool",
+      "source": "chain-analysis mixer cluster report (synthetic)",
+      "observedAt": "2025-09-01T00:00:00Z",
+      "licenceNote": "Demo data included for dataset richness; illustrates the mixer address-type distinction from FR-04."
+    },
+    {
+      "address": "0xaaaaa3fc00000000000000000000000000000000",
+      "chain": "ETH",
+      "entity": "Vertex Exchange",
+      "serviceType": "exchange",
+      "addressType": "hot-wallet",
+      "source": "Vertex self-declared hot-wallet registry (synthetic)",
+      "observedAt": "2026-01-05T00:00:00Z",
+      "licenceNote": "Demo data included for dataset richness."
+    }
+  ]
+}
